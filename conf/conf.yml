@@ -1,0 +1,29 @@
+train:
+  batch_size: 2
+  n_epochs: 70
+  need_att_mask: False
+  need_raw_text: True
+  redundancy_beta: 0.5
+  beta: 0.1
+  predict_risk: False
+
+model:
+  embedding_size: 384
+  hidden_size: [500, 200, 50]
+  hidden_layers: 3
+  dropout: 0.3
+  in_LN: False
+  hid_LN: False
+  out_LN: False
+  softmax_tau: 0.7
+  predict: False
+
+optim:
+  optimizer: 'Adagrad'
+  lr: 0.001
+  weight_decay: 0.0000001
+
+data:
+  label: 'firm_std_10_post'
+
+description: 'codebook size = 200'
