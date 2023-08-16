@@ -1,5 +1,5 @@
 <h1 align="center">
-    Unlocking the Power of Earnings Call Transcripts: Towards Task-Agnostic and Explainable Key Insight Extraction
+    Unveiling Explainable Representation Learning in Earnings Call Transcripts via Structure-Aware Key Insight Extraction
 </h1>
 
 <br />
