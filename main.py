@@ -13,7 +13,7 @@ from accelerate import Accelerator
 
 def parse_args_and_config():
     parser = argparse.ArgumentParser(description=globals()['__doc__'])
-    parser.add_argument('--doc', type=str, default='EARNIE', help='A string for project name')
+    parser.add_argument('--doc', type=str, default='ECT-SKIE', help='A string for project name')
     parser.add_argument('--model', type=str, default='Model', help='The model name')
     parser.add_argument('--trainer', type=str, default='Trainer', help='The trainer to execute')
     parser.add_argument('--try_toy', type=str, default=True, help='Whether to try toy samples.')

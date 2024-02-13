@@ -1,11 +1,11 @@
 <h1 align="center">
-    Unveiling Explainable Representation Learning in Earnings Call Transcripts via Structure-Aware Key Insight Extraction
+    Learning Representation for Earnings Call Transcript via Structure-Aware Key Insight Extraction
 </h1>
 
 <br />
 
 ## Overview
-This repo includes pytorch implementation of **EARNIE**. EARINE can automatically extract relevant information from earnings call transcripts. Our model leverages the structural information in transcripts to extract key insights effectively while providing concise explanations for each decision made by the model. We hope our research can shed light on the development of more efficient and effective transcript representation learning models for financial analysis. 
+This repo includes pytorch implementation of **ECT-SKIE**. ECT-SKIE can automatically extract relevant information from earnings call transcripts. Our model leverages the structural information in transcripts to extract key insights effectively while providing concise explanations for each decision made by the model. We hope our research can shed light on the development of more efficient and effective transcript representation learning models for financial analysis. 
 
 ## Usage
 Download and install the environment from the requirments file.
@@ -17,7 +17,7 @@ conda activate env_name
 
 See main.py for possible arguments.
 
-use EARNIE to generate results to explain the key insights selection for earnings call transcripts:
+use ECT-SKIE to generate results to explain the key insights selection for earnings call transcripts:
 ```
 python main.py --test True 
 ```
